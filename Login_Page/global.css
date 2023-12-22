@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-7xl: 26px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-silver-100: rgba(176, 186, 195, 0.4);
+  --color-gray-100: #7c838a;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-yellow: #f9ed32;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-mini: 15px;
+  --br-6xl: 25px;
+}
