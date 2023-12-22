@@ -12,6 +12,7 @@
           font-family: 'Arial', sans-serif;
           margin: 0;
           padding: 0;
+          
       }
 
       #sidebar {
@@ -45,7 +46,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body style="background: radial-gradient(circle,#ffcc00,#ff6600);">
+
     <!-- Your HTML content goes here -->
 
     <!-- Bootstrap JS and Popper.js (optional, but required for certain Bootstrap features) -->
@@ -94,17 +96,17 @@
                 <path
                   d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 2h-4v3h4zm0 4h-4v3h4zm0 4h-4v3h3a1 1 0 0 0 1-1zm-5 3v-3H6v3zm-5 0v-3H1v2a1 1 0 0 0 1 1zm-4-4h4V8H1zm0-4h4V4H1zm5-3v3h4V4zm4 4H6v3h4z" />
               </svg>
-                Orders
+                Analysis
               </a>
             </li>
             <li>
-              <a href="#" class="nav-link text-white">
+              <a href="#pricing" class="nav-link text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid"
                 viewBox="0 0 16 16">
                 <path
                   d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z" />
               </svg>
-                Products
+                Services
               </a>
             </li>
             <li>
@@ -114,9 +116,19 @@
                 <path
                   d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
               </svg>
-                Customers
+                Profile
               </a>
             </li>
+           
+            <li>
+                <button type="button"  class="btn btn-warning" style="margin-right: 14px;">Sign up</button>
+              </li>
+         
+            
+              <li>
+                <button type="button" class="btn btn-primary">Log in</button>
+              </li>
+        
           </ul>
         </div>
       </div>
@@ -131,10 +143,10 @@
     
       <div>
         <div id="sidebar">
-          <p>Sidebar Content 1</p>
-          <p>Sidebar Content 2</p>
-          <p>Sidebar Content 3</p>
-          <p>Sidebar Content 4</p>
+          <p>Dashboard</p>
+          <p>Analysis</p>
+          <p>Services</p>
+          <p>Profile</p>
           <!-- Add your sidebar content here -->
       </div>
   
@@ -164,14 +176,14 @@
 
 
 
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg" style="background: radial-gradient(circle,#d2a800,#cc5100);">
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
           <h2 style="display:inline-block;font-family: 'Times New Roman', Times, serif;">Your Personal Productivity Hub: Simplify Task Management with [Your App Name]"</h2><br><br>
           <p class="lead">Your tasks, goals, and essential tools seamlessly come together in one place, empowering you to stay organized and focused. [Your App Name] is your personal task management solution, designed to streamline your workflow and keep everything you need at your fingertips.</p>
           
         </div>
         <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-            <img class="rounded-lg-3" style="border-radius: 2%;border: 3px solid #382e1df2;" src="D:\SJBIT_Hackathon\Assets\240_F_259317013_nJJaBgGGzvXMd6cAyLd6yMJtbdnd61wk.jpg" alt="" width="720">
+            <img class="rounded-lg-3" style="border-radius: 2%;border: 3px solid #382e1df2;" src="../Assets/240_F_259317013_nJJaBgGGzvXMd6cAyLd6yMJtbdnd61wk.jpg" alt="" width="720">
         </div>
       </div>
 <!-- key features -->
@@ -229,22 +241,21 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 class="fw-normal">Heading</h2>
-            <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../Assets/IMG-20231222-WA0012.jpg" preserveAspectRatio="xMidYMid slice" focusable="false">>
+            <h2 class="fw-normal">Effortless Organization: </h2>
+            <p>Streamline your daily tasks and priorities with a to-do list, bringing structure and clarity to your workflow.</p>
+            
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 class="fw-normal">Heading</h2>
-            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../Assets/IMG-20231222-WA0011.jpg" preserveAspectRatio="xMidYMid slice" focusable="false">>
+            <h2 class="fw-normal">Stress-Free Productivity: </h2>
+            <p>Experience a sense of control and accomplishment as you manage and conquer tasks, alleviating stress and boosting productivity.</p>
+            
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 class="fw-normal">Heading</h2>
-            <p>And lastly this, the third column of representative placeholder content.</p>
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../Assets/IMG-20231222-WA0010.jpg" preserveAspectRatio="xMidYMid slice" focusable="false">>
+            <h2 class="fw-normal">Time Mastery Made Simple: </h2>
+            <p>Navigate through your day with precision, maximizing your time and achieving goals seamlessly through the strategic use of to-do lists.</p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
     
@@ -252,14 +263,15 @@
         <!-- START THE FEATURETTES -->
     
         <hr class="featurette-divider">
+        <br><br><h2 style="text-align: center;">FACTS</h2><br><br>
     
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Boosts Productivity :<span class="text-body-secondary">Streamline Your Day.</span></h2>
+            <p class="lead">To-do lists are proven to enhance productivity by providing a clear and organized structure for tasks, helping individuals focus on what needs to be accomplished.</p>
           </div>
           <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../Assets/IMG-20231222-WA0008.jpg" width="500" height="500"  aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">          
           </div>
         </div>
     
@@ -267,11 +279,11 @@
     
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Reduces Stress and Overwhelm :<span class="text-body-secondary">Stay in Control.</span></h2>
+            <p class="lead">Using a to-do list helps individuals manage their workload effectively, reducing stress and preventing the feeling of being overwhelmed by tasks.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../Assets/IMG-20231222-WA0009.jpg" width="500" height="500"  aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">          
           </div>
         </div>
     
@@ -279,12 +291,11 @@
     
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+            <h2 class="featurette-heading fw-normal lh-1">Enhances Time Management :<span class="text-body-secondary">Master Your Time.</span></h2>
+            <p class="lead">To-do lists aid in better time management, allowing users to prioritize tasks, allocate time efficiently, and meet deadlines more effectively.</p>
           </div>
           <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-          </div>
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="../Assets/IMG-20231222-WA0007.jpg" width="500" height="500"  aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">          </div>
         </div>
     
         <hr class="featurette-divider">
@@ -297,22 +308,28 @@
 
       <!-- pricing -->
 
+      <section id="pricing">
+        <div class="container py-3">
+            <header>
+          
+              <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+                <p class="fs-5 text-body-secondary">Upgrade your experience with our premium membership and enjoy exclusive benefits – complete your purchase securely with our easy-to-use payment form.</p>
+              </div>
+            </header>
+      </section>
 
-
-      <div class="container py-3">
-        <header>
-      
-          <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-            <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
-            <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
-          </div>
-        </header>
+     
       
         <main>
           <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            
+
+                    <!-- restricted -->
             <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                  <div class="card-header py-3 text-bg-primary border-primary">
+                <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+                  <div class="card-header py-3 text-bg-secondarry border-secondary">
+
                     <h4 class="my-0 fw-normal">RESTRICTED</h4>
                   </div>
                   <div class="card-body">
@@ -323,13 +340,17 @@
                       <li>Phone and email support</li>
                       <li>Help center access</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Get Started</button>
+                    <button type="button" class="w-100 btn btn-lg btn-secondary">Get Started</button>
                   </div>
                 </div>
               </div>
+
+
+
+              <!-- regular -->
               <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                  <div class="card-header py-3 text-bg-primary border-primary">
+                <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+                  <div class="card-header py-3 text-bg-secondarry border-secondary">
                     <h4 class="my-0 fw-normal">REGULAR</h4>
                   </div>
                   <div class="card-body">
@@ -340,13 +361,16 @@
                       <li>Phone and email support</li>
                       <li>Help center access</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Get Started</button>
+                    <button type="button" class="w-100 btn btn-lg btn-secondary">Get Started</button>
                   </div>
                 </div>
               </div>
+
+                <!-- premium -->
+
               <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                  <div class="card-header py-3 text-bg-primary border-primary">
+                <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+                  <div class="card-header py-3 text-bg-secondarry border-secondary">
                     <h4 class="my-0 fw-normal">PREMIUM</h4>
                   </div>
                   <div class="card-body">
@@ -357,75 +381,44 @@
                       <li>Phone and email support</li>
                       <li>Help center access</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Get Started</button>
+                    <button type="button" class="w-100 btn btn-lg btn-secondary">Get Started</button>
                   </div>
                 </div>
               </div>
          
           </div>
       
-          <h2 class="display-6 text-center mb-4">Compare plans</h2>
-      
-          <div class="table-responsive">
-            <table class="table text-center">
-              <thead>
-                <tr>
-                  <th style="width: 34%;"></th>
-                  <th style="width: 22%;">Free</th>
-                  <th style="width: 22%;">Pro</th>
-                  <th style="width: 22%;">Enterprise</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row" class="text-start">Public</th>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Private</th>
-                  <td></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-              </tbody>
-      
-              <tbody>
-                <tr>
-                  <th scope="row" class="text-start">Permissions</th>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Sharing</th>
-                  <td></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Unlimited members</th>
-                  <td></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Extra security</th>
-                  <td></td>
-                  <td></td>
-                  <td><svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
         </main>
       
         
       </div>
-      
 
 
+
+      <!-- footer -->
+
+      <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 HAZY.exe will win</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+          </svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg></a></li>
+        </ul>
+      </footer>
+    </div>
 
 
 
