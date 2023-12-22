@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+
+    <style>
+  .input{
+    font-size: 25px;
+
+  
+  }
+  .buttonframe2{
+    height: 50px;
+    
+  }
+    </style>
+  </head>
+  <body>
+    <div class="loginpage">
+      <img class="blobsvector-icon" alt="" src="./public/blobsvector@2x.png" />
+
+      <img class="blobsvector-icon1" alt="" src="./public/blobsvector@2x.png" />
+
+      <img class="blobsvector-icon2" alt="" src="./public/blobsvector@2x.png" />
+
+      <img class="mainimage-icon" alt="" src="./public/mainimage@2x.png" />
+
+      <div class="content">
+        <div class="contentframe"></div>
+        <div class="content1">
+          <div class="reserved-directs-to"></div>
+          <div class="buttongithub">
+            <img class="github-icon" alt="" src="./public/github@2x.png" />
+
+            <div class="sing-up-with">Sing up with GitHub</div>
+            <div class="buttonframe"></div>
+          </div>
+          <div class="buttongoogle" id="buttonGoogleContainer">
+            <img class="google-icon" alt="" src="./public/google@2x.png" />
+
+            <div class="sing-up-with1">Sing up with Google</div>
+            <div class="buttonframe"></div>
+          </div>
+          <div class="or-">- OR -</div>
+          <div class="already-have-a-container">
+            <span>Are you a new user</span>
+            <span class="span"> </span>
+            <span class="log-in"><a href="google.com" style="text-decoration: none;color:rgb(164, 164, 4)">Sign-up</a></span>
+          </div>
+          <div class="buttoncreateacc">
+            
+            <div class="create-account"><button class="buttonframe2">Log-in</button></div>
+          </div>
+          <div class="password-input">
+            <div class="password">Password</div>
+            <div class="passwordinp">
+              <div class="enter-your-password"></div>
+              <div class="input"><input placeholder="Enter your Password here" type="password" class="input"> </div>
+            </div>
+          </div>
+          <div class="email-input">
+            <div class="password">Email</div>
+            <div class="passwordinp">
+              <div class="enter-your-password"></div>
+              <div class="input"><input placeholder="Enter your Email here" type="email" class="input"></div>
+            </div>
+          </div>
+         
+          <div class="title">Login to existing Account</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonGoogleContainer = document.getElementById("buttonGoogleContainer");
+      if (buttonGoogleContainer) {
+        buttonGoogleContainer.addEventListener("click", function () {
+          window.open("www.google.com");
+        });
+      }
+      </script>
+  </body>
+</html>
